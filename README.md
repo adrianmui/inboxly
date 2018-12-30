@@ -1,4 +1,31 @@
+## Inbox Clone
+
+Google's sunsetting Inbox by March 2019, so this is my pet project.
+
+### Tech (Front)
+
+will be using:
+
+* firebase/firestoree
+* create-react-app
+* react
+* redux
+* redux-sagas
+* prettier/eslint + airbnb styleguide
+* storybook
+* yarn
+* husky
+* express/serverside react
+* material-ui
+* flowtypes?
+
+### ROADMAP (private for now, will be public once MVP is pushed): 
+
+https://www.pivotaltracker.com/projects/2229071 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
