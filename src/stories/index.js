@@ -6,6 +6,7 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
 import { Switch } from '../components';
+import LeftNav from '../LeftNav';
 
 storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
@@ -24,3 +25,8 @@ storiesOf('Button', module)
   ));
 
 storiesOf('Switch', module).add('base', () => <Switch />);
+storiesOf('Sandbox', module).add('playground', () => (
+  <div>
+    <LeftNav />
+  </div>
+));
