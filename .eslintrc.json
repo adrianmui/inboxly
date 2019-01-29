@@ -29,6 +29,7 @@
   "rules": {
     "react/jsx-filename-extension": [0, { "extensions": [".js", "jsx"] }],
     "react/prop-types": 0,
+    "react/no-array-index-key": 0,
     "prettier/prettier": 2,
     "max-len": [2, 80],
     "import/named": 0,
